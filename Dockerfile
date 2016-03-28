@@ -3,5 +3,5 @@ MAINTAINER Octoblu, Inc. <docker@octoblu.com>
 
 RUN ["npm", "install", "--global", "coap-cli"]
 
-ENTRYPOINT ["coap-cli"]
+ENTRYPOINT ["coap"]
 
